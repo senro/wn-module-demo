@@ -1,0 +1,20 @@
+{
+  "name": "demo",
+  "version": "0.0.1",
+  "description": "wn demo template",
+  "keywords": [
+    "wn",
+    "wn demo template"
+  ],
+  "author": "snail-team <passtom@foxmail.com>",
+  "homepage": "https://github.com/snail-team/wn-data/demo-template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snail-team/wn-data.git"
+  },
+  "bugs": {
+    "url": "https://github.com/snail-team/wn-data/issues"
+  },
+  "license": "MIT",
+ 
+}

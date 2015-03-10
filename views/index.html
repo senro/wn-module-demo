@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title><%name%>@<%version%></title>
+    <meta name="description" content="<%name%>@<%version%>"/>
+    <meta name="keywords" content="<%name%>@<%version%>"/>
+    <meta name="copyright" content="苏州蜗牛数字科技股份有限公司"/>
+    <meta name="author" content="senro"/>
+    <link rel="stylesheet" type="text/css" href="http://static.woniu.com/stylesheets/base.css"/>
+    __COMPONENTS_CSS__
+</head>
+
+<body>
+
+<!--load('<%name%>@<%version%>')-->
+
+<script type="text/javascript" src="https://rawgithub.com/snail-team/wn-site/master/static/lib/wn.js"></script>
+__COMPONENTS_JS__
+<script type="text/javascript" data-main='true'>
+
+    require.config({
+        alias:
+             __COMPONENTS_ALIAS__
+    });
+    __COMPONENTS_INIT__
+</script>
+</body>
+</html>
