@@ -7,14 +7,14 @@
     "wn demo template"
   ],
   "author": "snail-team <passtom@foxmail.com>",
-  "homepage": "https://github.com/snail-team/wn-data/demo-template",
+  "homepage": "https://github.com/snail-team/wn-module-demo",
   "repository": {
     "type": "git",
-    "url": "https://github.com/snail-team/wn-data.git"
+    "url": "https://github.com/snail-team/wn-module-demo.git"
   },
   "bugs": {
-    "url": "https://github.com/snail-team/wn-data/issues"
+    "url": "https://github.com/snail-team/wn-module-demo/issues"
   },
-  "license": "MIT",
+  "license": "MIT"
  
 }
