@@ -15,7 +15,7 @@ fis.config.set('releaseToOuter', '/'+fis.config.get('name')+'/');
 fis.config.merge({
     roadmap : {
         //所有静态资源文件都使用 http://s1.example.com 或者 http://s2.example.com 作为域名
-        domain : 'http://127.0.0.1:8080'
+        domain : 'http://spm.woniu.com/docs/'+meta.name
     }
 });
 
