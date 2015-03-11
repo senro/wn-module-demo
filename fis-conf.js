@@ -1,6 +1,6 @@
 // 利用package.json文件定义项目名和版本
 var meta = require('./package.json');
-fis.config.set('name', meta.name);
+fis.config.set('name','demo');
 fis.config.set('version', meta.version);
 
 fis.config.set('labelCompileInline','true');
